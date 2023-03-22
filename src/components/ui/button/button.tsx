@@ -1,5 +1,5 @@
-import { FC } from "react";
-import "./style.css";
+import { FC } from 'react';
+import css from './button.module.css';
 
 type ButtonProps = {
   children: string;
@@ -8,7 +8,7 @@ type ButtonProps = {
 
 export const Button: FC<ButtonProps> = ({ children, minWidth }) => {
   return (
-    <button type="button" style={{ minWidth: minWidth }} className="button">
+    <button type='button' style={{ minWidth: minWidth }} className={css.button}>
       {children}
     </button>
   );
