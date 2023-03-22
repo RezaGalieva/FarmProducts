@@ -1,0 +1,40 @@
+.about {
+  display: flex;
+  align-items: center;
+  height: 600px;
+  padding-left: 90px;
+  position: relative;
+  background-color: #d8ecfe;
+  overflow: hidden;
+}
+
+.about__wrapper {
+  width: 538px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.about__text {
+  margin: 0;
+}
+
+.about__wrapper::before {
+  content: "";
+  position: absolute;
+  width: 446px;
+  height: 447px;
+  top: 76px;
+  bottom: 76px;
+  right: 90px;
+  background-color: #c4e2ff;
+  border-radius: 50%;
+}
+
+.about__img {
+  position: absolute;
+  width: 273px;
+  height: 627px;
+  top: 5px;
+  right: 176px;
+}

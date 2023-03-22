@@ -1,0 +1,10 @@
+.logo__link {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+
+  text-decoration: none;
+  color: #333333;
+  font-weight: 700;
+  font-size: 28px;
+}
